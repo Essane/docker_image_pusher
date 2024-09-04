@@ -11,3 +11,5 @@ minio/minio:RELEASE.2023-04-13T03-08-07Z
 bellsoft/liberica-openjdk-debian:11.0.24-cds
 bellsoft/liberica-openjdk-debian:17.0.11-cds
 bellsoft/liberica-openjdk-debian:21.0.3-cds
+#apache
+apache/shardingsphere-proxy:5.4.0
