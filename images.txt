@@ -15,3 +15,5 @@ bellsoft/liberica-openjdk-debian:21.0.5-cds
 apache/shardingsphere-proxy:latest
 #zookeeper
 zookeeper:3.7.2
+#ollama
+ghcr.io/open-webui/open-webui:main
