@@ -2,15 +2,15 @@
 --platform=linux/amd64 snowdreamtech/frps:latest
 #ruoyi-vue-plus
 nginx:1.23.4
-mysql:8.0.33
-redis:6.2.12
-minio/minio:RELEASE.2023-04-13T03-08-07Z
+mysql:8.0.42
+redis:7.2.8
+minio/minio:RELEASE.2025-04-22T22-12-26Z
 #ZLMediaKit
 --platform=linux/amd64 zlmediakit/zlmediakit:master
 #jdk
 bellsoft/liberica-openjdk-debian:11.0.24-cds
-bellsoft/liberica-openjdk-debian:17.0.11-cds
-bellsoft/liberica-openjdk-debian:21.0.5-cds
+bellsoft/liberica-openjdk-debian:17.0.15-cds
+bellsoft/liberica-openjdk-debian:21.0.7-cds
 #shardingsphere
 apache/shardingsphere-proxy:latest
 #zookeeper
