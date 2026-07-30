@@ -1,61 +1,22 @@
-#nginx
-#支持私库
-#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#xhofe/alist:latest
-#支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
-
-
-#mcr.microsoft.com/dotnet/sdk:9.0
-#mcr.microsoft.com/dotnet/runtime:9.0
-#mcr.microsoft.com/dotnet/aspnet:9.0
-
-#gitlab/gitlab-runner-helper:x86_64-6fbc7474 
-#gitlab/gitlab-runner:latest
-
-#docker.io/library/node:20-bookworm
-
-#docker.io/library/node:20-bookworm-slim
-
-#docker.io/library/debian:bookworm-slim
-#docker.io/library/rust:1-bookworm
-
-#gitlab/gitlab-ee:14.7.3-ee.0
-#vaultwarden/server:latest
-#caddy:2 
-#mtphotos/mt-photos:latest
-#mtphotos/mt-photos-ai:latest
-#luodaoyi/kms-server
-#cooderl/wewe-rss-sqlite
-#ghcr.io/home-assistant/home-assistant:stable
-
-#jericx/syncclipboard-server:latest
-
-#docker.io/library/python:3.12-slim
-#docker.io/library/node:20-alpine
-
-#golangboyme/wxocr
-
-#immich
-#ghcr.io/immich-app/immich-server:release
-#ghcr.io/immich-app/immich-machine-learning:release
-#docker.io/valkey/valkey:8-bookworm@sha256:fea8b3e67b15729d4bb70589eb03367bab9ad1ee89c876f54327fc7c6e618571
-#ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0@sha256:41eacbe83eca995561fe43814fd4891e16e39632806253848efaf04d3c8a8b84
-
-# 下载历史版本的 iOS 应用
-#uuphy/ipa-harbor
-
-
-#neilpang/acme.sh
-
-#certimate/certimate:latest
-#greper/certd:latest
-
-#mongo
-#redis
-
-mcr.microsoft.com/dotnet/sdk:10.0
-mcr.microsoft.com/dotnet/aspnet:10.0
-mcr.microsoft.com/dotnet/runtime:10.0
-mcr.microsoft.com/dotnet/runtime-deps:10.0
-# acr-mirror-manager rerun: 2026-07-25 15:13:36Z
+#frps
+--platform=linux/amd64 snowdreamtech/frps:latest
+#ruoyi-vue-plus
+nginx:1.23.4
+mysql:8.0.42
+redis:7.2.8
+minio/minio:RELEASE.2025-04-22T22-12-26Z
+#ZLMediaKit
+--platform=linux/amd64 zlmediakit/zlmediakit-pro:feature_all
+--platform=linux/amd64 zlmediakit/zlmediakit:master
+--platform=linux/amd64 zlmediakit/zlmediakit:master_py
+--platform=linux/amd64 zlmediakit/zlmediakit:feature-transcode2
+#jdk
+bellsoft/liberica-openjdk-debian:11.0.24-cds
+bellsoft/liberica-openjdk-debian:17.0.15-cds
+bellsoft/liberica-openjdk-debian:21.0.9-cds
+#shardingsphere
+apache/shardingsphere-proxy:latest
+#zookeeper
+zookeeper:3.7.2
+#ollama
+ghcr.io/open-webui/open-webui:main
