@@ -14,9 +14,6 @@ minio/minio:RELEASE.2025-04-22T22-12-26Z
 bellsoft/liberica-openjdk-debian:11.0.24-cds
 bellsoft/liberica-openjdk-debian:17.0.15-cds
 bellsoft/liberica-openjdk-debian:21.0.9-cds
-#shardingsphere
-apache/shardingsphere-proxy:latest
-#zookeeper
-zookeeper:3.7.2
-#ollama
-ghcr.io/open-webui/open-webui:main
+#jpom
+jpomdocker/jpom:2.11.13
+jpomdocker/jpom-agent:2.11.13
