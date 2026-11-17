@@ -7,13 +7,8 @@ redis:7.2.8
 minio/minio:RELEASE.2025-04-22T22-12-26Z
 #ZLMediaKit
 --platform=linux/amd64 zlmediakit/zlmediakit-pro:feature_all
---platform=linux/amd64 zlmediakit/zlmediakit:master
 --platform=linux/amd64 zlmediakit/zlmediakit:master_py
---platform=linux/amd64 zlmediakit/zlmediakit:feature-transcode2
 #jdk
 bellsoft/liberica-openjdk-debian:11.0.24-cds
 bellsoft/liberica-openjdk-debian:17.0.15-cds
 bellsoft/liberica-openjdk-debian:21.0.9-cds
-#jpom
-jpomdocker/jpom:2.11.13
-jpomdocker/jpom-agent:2.11.13
