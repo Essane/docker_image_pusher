@@ -13,5 +13,5 @@ bellsoft/liberica-openjdk-debian:17-cds
 bellsoft/liberica-openjdk-debian:21-cds
 
 findepi/graalvm:java11-native
-findepi/graalvm:java17-natie
+findepi/graalvm:java17-native
 findepi/graalvm:java21-native
