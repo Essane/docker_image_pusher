@@ -8,6 +8,6 @@ redis:7.2.8
 --platform=linux/amd64 zlmediakit/zlmediakit-pro:feature_all
 --platform=linux/amd64 zlmediakit/zlmediakit:master_py
 #jdk
-bellsoft/liberica-openjdk-debian:11.0.24-cds
-bellsoft/liberica-openjdk-debian:17.0.15-cds
-bellsoft/liberica-openjdk-debian:21.0.9-cds
+bellsoft/liberica-openjdk-debian:11-cds
+bellsoft/liberica-openjdk-debian:17-cds
+bellsoft/liberica-openjdk-debian:21-cds
